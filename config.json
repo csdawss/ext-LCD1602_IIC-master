@@ -1,0 +1,25 @@
+{
+	"name": {
+		"zh-cn": "LCD1602_I2C显示驱动",
+		"en": "LCD1602 Display Driver"
+	},
+	"description": {
+		"zh-cn": "ESP32 LCD1602显示驱动库",
+		"en": "ESP32 LCD1602 Display Driver Library"
+	},
+	"author": "HY",
+	"email": "ggbon208@163.com",
+	"license": "MIT",
+	"isBoard": false,
+	"id": "lcd1602_i2c_HY",
+	"platform": ["win", "mac", "web"],
+	"version": "1.0.0",
+	"asset": {
+		"arduinoC": {
+			"dir": "arduinoC/",
+			"version": "1.0.0",
+			"board": ["esp32", "firebeetleesp32", "firebeetleesp32e"],
+			"main": "main.ts"
+		}
+	}
+}

@@ -1,0 +1,48 @@
+{
+    "oled12864.buttonPress|block": "当 [BUTTON] 按钮按下",
+    "oled12864.qrcode|block": "在坐标x [X] y [Y] 绘制二维码[STR] 尺寸 [SIZE]",
+    "oled12864.println|block": "在第 [LINE] 显示 [STR]",
+    "oled12864.print|block": "在坐标x [X] y [Y] 显示 [STR]",
+    "oled12864.setLineWidth|block": "设置线宽为 [WIDTH] 像素",
+    "oled12864.getLineWidth|block": "获取线宽",
+    "oled12864.buttonIsPressed|block": "按钮 [BUTTON] 被按下？",
+    "oled12864.notTrue|block": "非 [Flag]",
+
+    "smalldisplay.init|block": "彩屏初始化 [PORT] 波特率 [BAUD] RX [RX] TX [TX]",
+    "smalldisplay.initSerial|block": "串口配置 [SERIAL] 波特率 [BAUD] RX [RX] TX [TX]",
+    "smalldisplay.refreshDisplay|block": "刷新显示",
+    "smalldisplay.colorValue|block": "颜色值 [COLOR]",
+    "smalldisplay.setOrientation|block": "横竖屏设置 [ORIENTATION]",
+    "smalldisplay.setBrightness|block": "屏亮度 [BRIGHTNESS]",
+    "smalldisplay.clearScreen|block": "颜色刷屏/背景色 [COLOR]",
+    "smalldisplay.displayImage|block": "图片显示 [ADDRESS] x [X] y [Y] 宽 [WIDTH] 高 [HEIGHT]",
+    "smalldisplay.drawPoint|block": "画点指令 x [X] y [Y] 颜色 [COLOR]",
+    "smalldisplay.drawRectangle|block": "画线框指令 x1 [X1] y1 [Y1] x2 [X2] y2 [Y2] 颜色 [COLOR]",
+    "smalldisplay.drawCircle|block": "画圆指令 x [X] y [Y] 半径 [RADIUS] 颜色 [COLOR]",
+    "smalldisplay.displayText|block": "显示文本 端口 [PORT] 字号 [SIZE] 颜色 [COLOR] 起点x [X] y [Y] 内容 [TEXT]",
+    "smalldisplay.displayChinese|block": "显示中文 端口 [PORT] 字号 [SIZE] 颜色 [COLOR] 起点x [X] y [Y] 内容 [TEXT]",
+    "smalldisplay.displayRealtimeVariable|block": "实时变量 端口 [PORT] 字号 [SIZE] 颜色 [COLOR] 起点x [X] y [Y] 内容 [TEXT]",
+    "smalldisplay.displayTextWithBackground|block": "带底色文本 端口 [PORT] 字号 [SIZE] 底色 [BGCOLOR] 文字颜色 [COLOR] 起点x [X] y [Y] 内容 [TEXT]",
+    "smalldisplay.customDisplay|block": "自定义显示 [DATA] x [X] y [Y] 宽 [WIDTH] 高 [HEIGHT] 颜色 [COLOR]",
+
+    "DISPLAY_ORIENTATION.Horizontal|menu": "横屏",
+    "DISPLAY_ORIENTATION.Vertical|menu": "竖屏",
+
+    "SERIAL_BAUD.Baud9600|menu": "9600",
+    "SERIAL_BAUD.Baud19200|menu": "19200",
+    "SERIAL_BAUD.Baud38400|menu": "38400",
+    "SERIAL_BAUD.Baud57600|menu": "57600",
+    "SERIAL_BAUD.Baud115200|menu": "115200",
+
+    "SERIAL_PORT.SoftSerial|menu": "SoftSerial",
+    "SERIAL_PORT.Serial|menu": "Serial",
+    "SERIAL_PORT.Serial1|menu": "Serial1",
+    "SERIAL_PORT.Serial2|menu": "Serial2",
+
+    "FONT_SIZE.Size16|menu": "16",
+    "FONT_SIZE.Size24|menu": "24",
+    "FONT_SIZE.Size32|menu": "32",
+
+    "oled12864.SIZE.1|menu": "29*29(1)",
+    "oled12864.SIZE.2|menu": "58*58(2)"
+}

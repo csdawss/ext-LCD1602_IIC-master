@@ -1,0 +1,58 @@
+{
+	"PIN_AnalogWrite": {
+		"menu": [
+			["D2", "D2"],
+			["D3", "D3"],
+			["D4", "D4"],
+			["D5", "D5"],
+			["D6", "D6"],
+			["D7", "D7"],
+            ["D8", "D8"],
+			["D9", "D9"]
+		]
+	},
+	"PIN_AnalogRead": {
+		"menu": [
+			["A0", "A0"]
+		]
+	},
+	"PIN_DigitalWrite": {
+		"menu": [
+			["D2", "D2"],
+			["D3", "D3"],
+			["D4", "D4"],
+			["D5", "D5"],
+			["D6", "D6"],
+			["D7", "D7"],
+            ["D8", "D8"],
+			["D9", "D9"]
+		]
+	},
+	"PIN_DigitalRead": {
+		"menu": [
+			["D2", "D2"],
+			["D3", "D3"],
+			["D4", "D4"],
+			["D5", "D5"],
+			["D6", "D6"],
+			["D7", "D7"],
+            ["D8", "D8"],
+			["D9", "D9"]
+		]
+	},
+	"PINMODE":{
+		"menu": [
+			["OUTPUT", "OUTPUT"],
+			["INPUT", "INPUT"],
+			["INPUT_PULLUP", "INPUT_PULLUP"]
+		]
+	},
+	"PORT":{
+		"menu": [
+			["SoftSerial", "SoftSerial"],
+			["Serial", "Serial"],
+			["Serial1", "Serial1"],
+			["Serial2", "Serial2"]
+		]
+	}
+}
