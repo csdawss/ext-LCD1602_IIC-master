@@ -1,4 +1,4 @@
-# ext-smalldisplay-master
+# ext-LCD1602-iic-master
 
 
 ![](./arduinoC/_images/featured.png)
@@ -14,9 +14,9 @@
 * [Supported targets](#Supportedtargets)
 
 ## URL
-* Project URL : ```https://github.com/csdawss/ext-smalldisplay-master```
+* Project URL : ```https://github.com/csdawss/ext-LCD1602_IIC-master```
 
-* Tutorial URL : ```https://github.com/csdawss/ext-smalldisplay-master```
+* Tutorial URL : ```https://github.com/csdawss/ext-LCD1602_IIC-master```
 
 * Get a purchase connection:
 
@@ -48,5 +48,4 @@ esp8266        |             |        √      |             |
 
 
 ## Release Logs
-* V0.0.1  Basic functions completed.
-* V0.0.2  Add support for 1602 screens and DS1307
+* V0.0.1  Add support for 1602 screens 
